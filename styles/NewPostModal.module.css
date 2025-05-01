@@ -1,0 +1,125 @@
+.modalOverlay {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalContent {
+    background: #111;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 900px;
+    max-height: 90vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.topBar {
+    background: #000;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    font-weight: bold;
+    font-size: 15px;
+    border-bottom: 1px solid #222;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.backArrow {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.share {
+    background: none;
+    border: none;
+    color: #3897f0;
+    font-weight: bold;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.dropZone {
+    flex: 1;
+    background: #222;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    padding: 40px;
+}
+
+.selectBtn {
+    background: #3897f0;
+    color: white;
+    padding: 8px 14px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.previewArea {
+    display: flex;
+    flex: 1;
+    min-height: 500px;
+}
+
+.previewImage {
+    width: 60%;
+    object-fit: contain;
+    background: black;
+}
+
+.sidebar {
+    width: 40%;
+    background: #1a1a1a;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.profileRow {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.avatar {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.caption {
+    resize: none;
+    background: transparent;
+    border: none;
+    color: white;
+    outline: none;
+    height: 150px;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.charCount {
+    font-size: 12px;
+    color: #999;
+    margin-top: auto;
+    text-align: right;
+}
