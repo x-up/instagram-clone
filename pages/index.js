@@ -26,7 +26,7 @@ export default function Home() {
             console.log(profiles);
             if (profiles === null || profiles.username === null) {
                 router.push("/login");
-              }
+            }
         })();
     }, []);
 

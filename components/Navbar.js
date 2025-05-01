@@ -57,18 +57,18 @@ export default function Navbar() {
                                 style={{
                                     width: 32,
                                     height: 32,
-                                    borderRadius: '50%',
-                                    backgroundColor: '#fff',
-                                    display: 'flex',
-                                    alignItems: 'center',
-                                    justifyContent: 'center',
-                                    overflow: 'hidden',
+                                    borderRadius: "50%",
+                                    backgroundColor: "#fff",
+                                    display: "flex",
+                                    alignItems: "center",
+                                    justifyContent: "center",
+                                    overflow: "hidden",
                                 }}
                             >
                                 <img
-                                    src={avatar || '/avatar-default.png'}
+                                    src={avatar || "/avatar-default.png"}
                                     alt="profile avatar"
-                                    style={{ width: 28, height: 28, borderRadius: '50%' }}
+                                    style={{ width: 28, height: 28, borderRadius: "50%" }}
                                 />
                             </div>
                             <span>Profile</span>
